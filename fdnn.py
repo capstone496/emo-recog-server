@@ -95,5 +95,5 @@ def predict(wave_file_address = r'03-01-01-01-01-01-01.wav'):
     return jsonify({"predictedEmotion": predicted_label})
 
 if __name__ == "__main__":
-    #predict()
+    print(predict())
 
